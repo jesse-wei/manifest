@@ -5,7 +5,7 @@
         <default remote="github" revision="master" />
 
         <!-- OP-TEE gits -->
-        <project path="optee_client"         name="OP-TEE/optee_client.git" />
+        <project path="optee_client"         name="jesse-wei/optee_client.git"   remote="github-ssh" />
         <project path="optee_os"             name="jesse-wei/optee_os.git"       remote="github-ssh" />
         <project path="optee_ftpm"           name="OP-TEE/optee_ftpm.git" />
         <project path="optee_test"           name="jesse-wei/optee_test.git"     remote="github-ssh" />
