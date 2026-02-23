@@ -49,8 +49,8 @@ do
 		sed "/^[\t ]*<project/s/\(OP-TEE.*\"\)/\1 revision=\"refs\/tags\/${VERSION}\" clone-depth=\"1\"/" |
 		sed "/^[\t ]*<project/s/\(OP-TEE\/build.git.*\) \/>/\1>/" | # Strip away a forward slash from build.git only
 
-		sed "/^[\t ]*<project/s/\(linaro-swg\/optee_examples.git\)revision.*/\1\/>/" | # Removes old revision
-		sed "/^[\t ]*<project/s/\(linaro-swg\/optee_examples.git\"\)/\1 revision=\"refs\/tags\/${VERSION}\" clone-depth=\"1\"/" |
+		sed "/^[\t ]*<project/s/\(jesse-wei\/optee_examples.git\)revision.*/\1\/>/" | # Removes old revision
+		sed "/^[\t ]*<project/s/\(jesse-wei\/optee_examples.git\"\)/\1 revision=\"refs\/tags\/${VERSION}\" clone-depth=\"1\"/" |
 		sed "/^[\t ]*<project/s/\(linaro-swg\/optee_benchmark.git\)revision.*/\1\/>/" | # Removes old revision
 		sed "/^[\t ]*<project/s/\(linaro-swg\/optee_benchmark.git\"\)/\1 revision=\"refs\/tags\/${VERSION}\" clone-depth=\"1\"/" |
 		sed "/^[\t ]*<project/s/\(linaro-swg\/linux.git\" *\)revision=\"optee\".*/\1revision=\"refs\/tags\/optee-${VERSION}\" clone-depth=\"1\" \/>/" |

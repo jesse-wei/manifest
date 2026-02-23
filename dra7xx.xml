@@ -3,7 +3,7 @@
         <remote name="ti" fetch="git://git.ti.com" />
 
         <include name="common.xml" />
-        <project path="build"          name="OP-TEE/build.git">
+        <project path="build"          name="jesse-wei/build.git">
                 <linkfile src="dra7xx.mk" dest="build/Makefile" />
         </project>
         <remove-project                name="linaro-swg/linux.git" />

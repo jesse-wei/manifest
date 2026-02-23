@@ -7,8 +7,8 @@
 
         <!-- OP-TEE gits -->
         <!-- Need to remove and re-add to replace Makefile symlink -->
-        <remove-project path="build"                    name="OP-TEE/build.git" />
-        <project        path="build"                    name="OP-TEE/build.git">
+        <remove-project path="build"                    name="jesse-wei/build.git" />
+        <project        path="build"                    name="jesse-wei/build.git">
                 <linkfile src="fvp-psa-sp.mk" dest="build/Makefile" />
         </project>
 
